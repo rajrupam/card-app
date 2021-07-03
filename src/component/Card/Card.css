@@ -1,0 +1,24 @@
+
+.cardContainer {
+    padding: 2em;
+    background: white;
+}
+
+.fieldContainer{
+    display:  flex;
+    align-items: flex-start;
+    gap : 1em;
+}
+
+.note {
+    padding: 0.5em 0;
+    font-size: 0.7em;
+    color:gray;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .fieldContainer {
+        flex-direction: column;
+    }
+}
